@@ -5,3 +5,8 @@ body{
 .resume{
     text-align: center;
 }
+hr{
+    height: 2px;
+    background-color: gray;
+    border-color: gray;
+}
