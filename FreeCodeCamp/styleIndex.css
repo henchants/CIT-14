@@ -1,41 +1,56 @@
-/* Apply styles to the body */
+
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: auto;
     padding: 0;
-    background-color: #f0f0f0;
+    background-image:url(https://images2.alphacoders.com/111/1113005.jpg);
+    background-position: center;
+}
+h1{
+    text-align: center;
+    }
+#description{
+    text-align: center;
 }
 
-/* Apply styles to the form container */
 #survey-form {
-    background-color: #fff;
+    background-color: #1b1b32;
     max-width: 600px;
-    margin: 20px auto;
+    margin: auto auto;
+    margin-bottom: 50px;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 15px 0 rgb(203, 51, 245);
 }
 
-/* Apply styles to headings and labels */
-h1, p, label {
+label{
+
+    color: #f5f6f7;
+}
+.thick, h1, p {
     font-weight: bold;
-    color: #333;
+    color: #f5f6f7;
+}
+h5, a{
+    color: white;
 }
 
-/* Apply styles to input fields */
+a:hover{
+    color:red;
+}
 input[type="text"],
 input[type="email"],
 input[type="number"],
 select,
 textarea {
-    width: 100%;
+    width: 97%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-/* Apply styles to buttons */
+
 button {
     background-color: #007bff;
     color: #fff;
@@ -45,13 +60,12 @@ button {
     cursor: pointer;
 }
 
-/* Apply styles to radio buttons and checkboxes */
+
 input[type="radio"],
 input[type="checkbox"] {
     margin-right: 5px;
 }
 
-/* Apply styles to the form container and button on smaller screens */
 @media (max-width: 768px) {
     #survey-form {
         padding: 10px;
