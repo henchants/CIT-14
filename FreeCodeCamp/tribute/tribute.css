@@ -1,5 +1,15 @@
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 4px solid #fdb347;
+}
+
 #main {
     text-align: center;
+    background-color:aliceblue;
 }
 
 #title {
@@ -8,7 +18,7 @@
     margin: 20px 0;
 }
 
-#img-div {
+#MozartImg {
     margin: 20px 0;
 }
 
@@ -26,10 +36,15 @@
 
 #tribute-info {
     font-size: 18px;
-    margin: 20px 0;
+    margin: 40px 40px;
 }
 
 #tribute-link {
+    text-decoration: underline;
+    color: black;
+}
+
+#tribute-link:hover{
+    color:red;
     text-decoration: none;
-    color: blue;
 }
