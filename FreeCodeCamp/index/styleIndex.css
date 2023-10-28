@@ -40,7 +40,8 @@ h5, a{
 }
 
 a:hover{
-    color:red;
+    color:greenyellow;
+    text-decoration: none;
 }
 
 input[type="text"],
