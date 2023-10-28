@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: auto;
     padding: 0;
-    background-image:url(https://images2.alphacoders.com/111/1113005.jpg);
+    background-image: url("imgs/zaun.jpeg") ;
     background-position: center;
 }
 h1{
@@ -20,7 +20,11 @@ h1{
     margin-bottom: 50px;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 15px 0 rgb(203, 51, 245);
+    box-shadow: 0 0 15px 0 rgb(137, 189, 60);
+}
+
+#dropdown{
+    width: 100%;
 }
 
 label{
@@ -44,7 +48,7 @@ input[type="email"],
 input[type="number"],
 select,
 textarea {
-    width: 97%;
+    width: 96%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
