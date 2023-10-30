@@ -4,12 +4,13 @@
     padding: 32px;
     background-color: #0a0a23;
     color: #fff;
-    border-bottom: 4px solid #fdb347;
+    border-top: 8px solid yellowgreen;
+    border-bottom: 8px solid purple;
 }
 
 #main {
     text-align: center;
-    background-color:aliceblue;
+    background-color:black;
 }
 
 #title {
@@ -18,7 +19,7 @@
     margin: 20px 0;
 }
 
-#MozartImg {
+#image {
     margin: 20px 0;
 }
 
@@ -32,11 +33,13 @@
 #img-caption {
     font-style: italic;
     margin: 10px 0;
+    color:white
 }
 
 #tribute-info {
     font-size: 18px;
     margin: 40px 40px;
+    color:white;
 }
 
 #tribute-link {
