@@ -30,6 +30,19 @@
     margin: 0 auto;
 }
 
+/* .background{ 
+    background-color: greenyellow;
+}*/
+
+.infoTitle{
+    text-align: center;
+}
+
+.info{
+    margin:0px 300px;
+    background-color: purple;
+}
+
 #img-caption {
     font-style: italic;
     margin: 10px 0;
@@ -46,6 +59,9 @@
     text-decoration: underline;
     color: black;
 }
+
+
+
 
 #tribute-link:hover{
     color:red;
